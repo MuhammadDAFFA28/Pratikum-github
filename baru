@@ -1,0 +1,6 @@
+tasks = []
+
+def add_task():
+    title = input("Masukkan task: ")
+    tasks.append({"title": title, "status": "belum"})
+    print("Task berhasil ditambahkan!")
